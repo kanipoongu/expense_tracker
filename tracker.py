@@ -38,5 +38,5 @@ def view_expense():
         for row in reader:
             print(f"{row['Description']:<20}{row['Amount']:>10}{row['Date']:^12}")
 
-# add_expense()
+add_expense()
 view_expense()
